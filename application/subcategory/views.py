@@ -16,5 +16,8 @@ class SubcatListView(generics.ListAPIView):
 
 
 class SubcatDetailView(generics.RetrieveAPIView):
+
     queryset = Subcategory.objects.all()
     serializer_class = SubcatDetailSerializer
+
+

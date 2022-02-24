@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'application.account',
     'application.category',
     'application.subcategory',
+    'application.theme',
 
 ]
 
